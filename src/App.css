@@ -17,7 +17,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   
 }
 
@@ -27,7 +27,7 @@ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 6px );
 -webkit-backdrop-filter: blur( 6px );
 border-radius: 10px;
-border: 1px solid rgba(198, 195, 195, 0.898);
+border: 1px solid rgba(139, 138, 138, 0.898);
 /* padding: 5em 1em; */
 min-width: 100%;
 /* color: #f4f5f4; */
@@ -37,7 +37,7 @@ min-width: 100%;
   margin: auto;
   
   
-  min-height: 100vh;
+  min-height: 70vh;
 }
 .bg-text h1{
   font-size: 4em;
@@ -77,8 +77,12 @@ border-radius: 5px;
   color: white;
 }
 
+/* a:hover{
+  color: #348893;
+} */
 .foot{
   padding: 1em;
+  margin: 2em 4em;
   font-size: 1.2em;
   color: #f4f5f4;
 }
