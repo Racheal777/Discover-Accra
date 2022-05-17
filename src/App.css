@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .5s ease-in;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --primary-color : #356b72;
+  --secondary-color: #f09a2f;
+  color: #f4f5f4
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.bg-image{
+  background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.2), rgba(35, 35, 35, 0.2)), url('../public//images/pic3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   min-height: 100vh;
+  
+}
+
+.bg-text{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.bg-text h1{
+  font-size: 4em;
+  /* padding: 2em; */
+  margin:  auto;
+  color: white;
+  font-weight: bold;
+}
+
+/* .bg-btn{
+  margin: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+.bg-btn button{
+  border: 3px solid var(--primary-color);
+  padding: 5px 13px;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

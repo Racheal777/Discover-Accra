@@ -1,0 +1,51 @@
+nav{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav.sticky{
+        box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
+    background-color: #fff;
+    padding-bottom: 0;
+    }
+    nav a{
+        color: white;
+    }
+.logos a{
+    font-family: 'Sahitya';
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+margin-right: 3em;
+line-height: 10px;
+color:#356b72;
+/* background-color: #356b72; */
+}
+
+    .register{
+        margin: 0 3em;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;   
+    }
+
+    .register a{
+        color: black;
+    }
+    
+    .register button{
+        padding: 1px 9px;
+        border: none;
+        background-color: #f09a2f;
+        margin-left: 10px;
+        color: white;
+        border-radius: 7px;
+    }
