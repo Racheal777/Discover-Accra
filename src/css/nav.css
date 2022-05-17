@@ -5,15 +5,16 @@ nav{
     top: 0;
     z-index: 99999;
     padding: 10px 0;
-    color: white;
+    
     display: flex;
+    font-weight: bold;
     justify-content: space-between;
     align-items: center;
     }
     
     nav.sticky{
         box-shadow: 0 2px 10px -2px rgba(0,0,0,0.41);
-    background-color: #fff;
+    /* background-color: #fff; */
     padding-bottom: 0;
     }
     nav a{
@@ -23,13 +24,17 @@ nav{
     font-family: 'Sahitya';
 font-style: normal;
 font-weight: bold;
-font-size: 22px;
+font-size: 26px;
 margin-right: 3em;
 line-height: 10px;
-color:#356b72;
+color:#f09a2f;
 /* background-color: #356b72; */
 }
 
+
+.dropdown{
+    transition: all .5s ease-in;
+}
     .register{
         margin: 0 3em;
         display: flex;

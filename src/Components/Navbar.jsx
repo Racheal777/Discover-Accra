@@ -12,7 +12,7 @@ export default function Navbarr() {
           <Container fluid>
             <div className="logos">
               <Nav.Link href="/">Discover</Nav.Link>
-              {/* <Navbar.Brand href="/">En Route</Navbar.Brand> */}
+              
             </div>
 
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,7 +23,7 @@ export default function Navbarr() {
               >
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/">About</Nav.Link>
-                <NavDropdown title="Locations" id="navbarScrollingDropdown">
+                <NavDropdown title="Locations" id="navbarScrollingDropdown" className="dropdown">
                   <NavDropdown.Item href="/hotels">Hotels</NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
                     Restaurants

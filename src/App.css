@@ -12,7 +12,7 @@
 }
 
 .bg-image{
-  background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.2), rgba(35, 35, 35, 0.2)), url('../public//images/pic3.jpeg');
+  background-image:linear-gradient(0deg, rgba(5, 5, 5, 0.2), rgba(35, 35, 35, 0.2)), url('../public//images/pic5.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,31 +22,87 @@
 }
 
 .bg-text{
-  display: flex;
-  justify-content: center;
+  background: rgba(254, 249, 249, 0.05);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba(198, 195, 195, 0.898);
+/* padding: 5em 1em; */
+min-width: 100%;
+/* color: #f4f5f4; */
+/* display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center; */
+  margin: auto;
+  
+  
   min-height: 100vh;
 }
 .bg-text h1{
   font-size: 4em;
   /* padding: 2em; */
-  margin:  auto;
-  color: white;
+  /* margin:  auto; */
+  
   font-weight: bold;
 }
 
-/* .bg-btn{
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
+.bg-btn{
+  color: white;
+  padding: 2em;
+  /* margin: 2em auto; */
+  text-align: left;
+min-height: 50vh;
+margin: 8em 4em;
+letter-spacing: 2px;
+
+  /* margin: 4em auto; */
+  
+}
 
 .bg-btn button{
+  background: #356b72;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 5px;
   border: 3px solid var(--primary-color);
-  padding: 5px 13px;
+  padding: 5px 20px;
   font-size: 1.4em;
   font-weight: bold;
 }
 
+.bg-btn button a{
+  text-decoration: none;
+  color: white;
+}
+
+.foot{
+  padding: 1em;
+  font-size: 1.2em;
+  color: #f4f5f4;
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.items a{
+  text-decoration: none;
+  color: white;
+}
+
+.items button{
+  background: #356b72;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 5px;
+  border: 3px solid var(--primary-color);
+  padding: 5px 16px;
+  font-size: 1em;
+  font-weight: bold;
+}
