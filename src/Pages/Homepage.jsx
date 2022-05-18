@@ -6,9 +6,15 @@ import Navbarr from "../Components/Navbar";
 
 const Homepage = () => {
   return (
-    <div className="md:container  bg-image  ">
-      <div className="bg-text md:mx-auto">
+    <div className="md:container bg-image">
+        
+        
+      <div className="bg-text  ">
+
           <Navbarr/>
+          
+        <h1 className="text md:text-base">EXPLORE THE CITY</h1>
+        
         <div className="bg-btn">
             <h3>Discover beautiful </h3>
         <h1 className="text-9xl">Accra</h1>

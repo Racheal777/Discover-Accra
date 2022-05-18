@@ -36,9 +36,9 @@ export default function Navbarr() {
               </Nav>
 
               <div className="register">
-                <Nav.Link href="/">Signup</Nav.Link>
+                <Nav.Link href="/signup">Signup</Nav.Link>
                 <button>
-                  <Nav.Link href="/">Login</Nav.Link>
+                  <Nav.Link href="/login">Login</Nav.Link>
                 </button>
               </div>
             </Navbar.Collapse>

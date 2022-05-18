@@ -16,8 +16,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  min-height: 70vh;
+  width: 100vw;
+  min-height: 100vh;
   
 }
 
@@ -37,7 +37,7 @@ min-width: 100%;
   margin: auto;
   
   
-  min-height: 70vh;
+  min-height: 100vh;
 }
 .bg-text h1{
   font-size: 4em;
@@ -109,4 +109,21 @@ border-radius: 5px;
   padding: 5px 16px;
   font-size: 1em;
   font-weight: bold;
+}
+
+.text{
+  font-size: 3em;
+  letter-spacing: 5px;
+  line-height: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  /* margin-top: 5em; */
+  /* min-height: 100vh; */
+  /* color: #23c4da; */
+  color: rgb(220, 214, 214);
+  /* margin: auto; */
 }
