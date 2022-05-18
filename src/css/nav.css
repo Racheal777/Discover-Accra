@@ -5,7 +5,7 @@ nav{
     top: 0;
     z-index: 99999;
     padding: 10px 0;
-    
+    font-size: 1.1em;
     display: flex;
     font-weight: bold;
     justify-content: space-between;
@@ -17,9 +17,9 @@ nav{
     /* background-color: #fff; */
     padding-bottom: 0;
     }
-    nav a{
+    /* .navv a{
         color: white;
-    }
+    } */
 .logos a{
     font-family: 'Sahitya';
 font-style: normal;
@@ -27,13 +27,18 @@ font-weight: bold;
 font-size: 26px;
 margin-right: 3em;
 line-height: 10px;
-color:#f09a2f;
+/* color:#356b72; */
+color: #6a1014;
 /* background-color: #356b72; */
 }
 
 
 .dropdown{
     transition: all .5s ease-in;
+    
+}
+#navbarScrollingDropdown{
+    color: white;
 }
     .register{
         margin: 0 3em;
@@ -49,8 +54,12 @@ color:#f09a2f;
     .register button{
         padding: 1px 9px;
         border: none;
-        background-color: #f09a2f;
+        background-color: #6a1014;
         margin-left: 10px;
         color: white;
         border-radius: 7px;
+    }
+
+    .register button a{
+        color: white;
     }

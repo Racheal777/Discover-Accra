@@ -7,13 +7,15 @@ import Homepage from './Pages/Homepage';
 import Navbarr from "./Components/Navbar";
 import Login from "./Auth/Login";
 import Signup from "./Auth/Signup";
+import Index from "./Pages";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Homepage/>}></Route>
-        <Route path="/home" element={<Navbarr/>}></Route>
+        {/* <Route path="/home" element={<Navbarr/>}></Route> */}
+        <Route path="/home" element={<Index/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signup" element={<Signup/>}></Route>
       </Routes>

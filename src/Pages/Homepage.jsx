@@ -2,44 +2,49 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbarr from "../Components/Navbar";
 
-
-
 const Homepage = () => {
   return (
     <div className="md: bg-image">
       <section className=" md: bg-text">
+        <div className="pic">
+          <Navbarr />
 
-     
-        
-        
-      <div className="">
+          <div className="bg-text2">
+            <h3>EXPLORE </h3>
+          </div>
+          <h1 className="text-9xl">Accra</h1>
 
-          <Navbarr/>
-          
-        {/* <h1 className="text md:text-base">EXPLORE THE CITY</h1> */}
-        
-        <div className="bg-btn">
-            <h3>Discover beautiful </h3>
-        <h1 className="text-9xl">Accra</h1>
-        <button><a href="/home"> Explore</a></button>
-        </div>
+          {/* <img src="../../images/main2.png"></img> */}
 
-        <div className="foot">
-            
+          <div className="bg-btn">
+            <button>
+              <a href="/home"> Explore</a>
+            </button>
+          </div>
+
+          <div className="foot">
             <h2>Top locations</h2>
             <div className="items flex flex-wrap md:flex-wrap">
-            <Link to='/'>Hotels</Link>
-            <Link to='/'>Restaurants</Link>
-            <Link to='/'>Adventure sites</Link>
-            <Link to='/'>Beaches</Link>
+              <div className="cards">
+                <Link to="/">Hotels</Link>
+              </div>
+
+              <div className="cards">
+                <Link to="/">Restaurants</Link>
+              </div>
+
+              <div className="cards">
+                <Link to="/">Adventure sites</Link>
+              </div>
+            </div>
             <div>
-            <button> <Link to='/'>View More</Link></button>
+              <button>
+                {" "}
+                <Link to="/">View More</Link>
+              </button>
             </div>
-            
-            </div>
-            
+          </div>
         </div>
-      </div>
       </section>
     </div>
   );
