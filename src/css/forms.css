@@ -1,7 +1,7 @@
 
 
 .center{
-    min-width: 40vw;
+    /* min-width: 40vw; */
     margin: auto;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     
@@ -38,10 +38,10 @@ border-radius: 10px;
 border: 1px solid rgba(139, 138, 138, 0.898); */
 }
 
-.forms h1{
+.forms h3{
     text-align: center;
     padding: 0.6em;
-    color: white;
+    color: rgb(252, 165, 3);
 }
 
 .form-input input{

@@ -13,10 +13,10 @@ const [ password, setPassword ] = useState('')
   return (
     <div className='md:container md:mx-auto form'>
       
-      <section className='center'>
+      <section className='center sm:container'>
 
       <h2>Discover</h2>
-      <form className='forms'>
+      <form className='forms sm:container w-full md:w-2/4'>
         {/* <div>
           <h1>Login</h1>
         </div> */}

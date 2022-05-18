@@ -6,14 +6,17 @@ import Navbarr from "../Components/Navbar";
 
 const Homepage = () => {
   return (
-    <div className="md:container bg-image">
+    <div className="md: bg-image">
+      <section className=" md: bg-text">
+
+     
         
         
-      <div className="bg-text  ">
+      <div className="">
 
           <Navbarr/>
           
-        <h1 className="text md:text-base">EXPLORE THE CITY</h1>
+        {/* <h1 className="text md:text-base">EXPLORE THE CITY</h1> */}
         
         <div className="bg-btn">
             <h3>Discover beautiful </h3>
@@ -37,6 +40,7 @@ const Homepage = () => {
             
         </div>
       </div>
+      </section>
     </div>
   );
 };

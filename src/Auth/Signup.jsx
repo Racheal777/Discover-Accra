@@ -10,12 +10,12 @@ const [ confirmpassword, setConfirmpassword ] = useState('')
     return (
         <div className='md:container md:mx-auto form'>
       
-      <section className='center'>
+      <section className='center sm:container '>
 
       <h2>Discover</h2>
-      <form className='forms md:mx-auto'>
+      <form className='forms sm:container w-full md:w-2/4'>
         <div>
-          <h1>Register to join amazing community</h1>
+          <h3>Register to join amazing community</h3>
         </div>
         <div className='form-input'>
         <label>Email</label>
