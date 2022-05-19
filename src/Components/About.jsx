@@ -6,7 +6,7 @@ export default function About() {
         <section className='grid grid-cols-1 md:grid-cols-3 about '>
             
             <div className='about-text'>
-            <h1>About Us</h1>
+            <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                      Illum perferendis nostrum unde est impedit
                      Illum perferendis nostrum unde est impedit
@@ -15,13 +15,15 @@ export default function About() {
             </div>
             <div>
                 <div className='cardz'>
-                <h2>Hotels</h2>
+                <h3>Hotels</h3>
+                <i class="fa-solid fa-hotel"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 Illum perferendis nostrum unde est impedit.</p>
                 </div>
 
                 <div className='cardz'>
-                <h2>Restaurants</h2>
+                <h3>Restaurants</h3>
+                <i class="fa-solid fa-pot-food"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 Illum perferendis nostrum unde est impedit.</p>
                 </div>
@@ -29,13 +31,15 @@ export default function About() {
 
             <div>
                 <div className='cardz'>
-                <h2>Adventure sites</h2>
+                <h3>Adventure sites</h3>
+                <i class="fa-solid fa-campground"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 Illum perferendis nostrum unde est impedit.</p>
                 </div>
 
                 <div className='cardz'>
-                <h2>Beach</h2>
+                <h3>Beach</h3>
+                <i class="fa-solid fa-umbrella-beach"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 Illum perferendis nostrum unde est impedit.</p>
                 </div>

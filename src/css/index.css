@@ -55,7 +55,7 @@ header {
     width: 100%;
     /* min-height: 60vh; */
     padding: 2em 4em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 1em auto;
     color: #696767;
     
@@ -87,4 +87,92 @@ animation-name: zoomIn;
 /* box-shadow: 0 0 15px 0 rgba(0,0,0,0.1); */
 
 text-align: left;
+}
+
+
+/* TIPS SECTION */
+
+.tips-main {
+    padding: 1.5em;
+    margin: 1em auto;
+    color: #696767;
+    background-color: #fefcfce2;
+    
+}
+.tips {
+    font-family:'Times New Roman', Times, serif;
+    margin: 1.5em auto;
+    padding: 0px 2em;
+}
+
+.tips .imgg {
+    margin: auto;
+    background-color: white;
+    padding: 6px;
+    width: 50%;
+}
+.tips img {
+    width: 100%;
+}
+
+.top-text {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 2px solid rgb(202, 201, 201);
+}
+
+.iconz {
+    margin: 8px;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+strong {
+    color: #870000;
+}
+
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  
+}  
+.img  
+{  
+        height: 260px;width:100%  
+}  
+
+.locations{
+    overflow-y: hidden;
+    margin: 1.4em auto;
+   padding-bottom: 1em;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+    visibility: visible;
+animation-delay: 0.1s;
+animation-name: zoomIn;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+margin-bottom: 30px;
+text-align: center;
+}
+
+.locations a{
+    margin: 1em auto;
+padding-top: 20px ;   
+color: #870000;
+font-size: 1.2em;
+text-decoration: none;
+}
+
+.middle-about{
+    width: 100%;
+    margin: 1.5em auto;
+    text-align: center;
+    align-items: center;
+    padding: 1.3em 3em;
+    font-size: 1.2em;
+    color: #565555;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: #e8e5e5;   */
 }

@@ -18,9 +18,21 @@ form h2 {
     padding: 14px 3px;
 }
 
+.forms {
+    font-family: 'Times New Roman', Times, serif;
+  background: rgba(254, 249, 249, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(139, 138, 138, 0.898);
+  color: #dadada;
+  
+  
+}
 
 .form {
-    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.2), rgba(46, 45, 45, 0.2)), url('../../public//images/blob-haikei.svg');
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.385), rgba(46, 45, 45, 0.499)), url('../../public//images/blob-haikei.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +52,7 @@ form h2 {
 }
 
 .formzz {
-    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.2), rgba(46, 45, 45, 0.2)), url('../../public//images/cool-background.svg');
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.345), rgba(46, 45, 45, 0.43)), url('../../public//images/cool-background.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,6 +93,16 @@ form h2 {
     background-color: white;
     font-size: 1.2em;
     border: none;
+    padding: 8px 15px;
+    color: #870000;
+}
+
+.form-inputs button {
+    margin: 1em auto;
+    width: 100%;
+    
+    font-size: 1.2em;
+    border: 2px solid white;
     padding: 8px 15px;
     color: #870000;
 }

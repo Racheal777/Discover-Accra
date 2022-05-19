@@ -41,7 +41,11 @@ const [ password, setPassword ] = useState('')
         <div>
           <Link to = "/forgot-passsword">Forgot Password ?</Link>
           
-          <p>Dont have an account? <Link to = "/signup">Signup</Link></p>
+          <p>Dont have an account?</p>
+          <div className='form-inputs'>
+          <button><Link to = "/signup">Signup</Link></button> 
+          </div>
+         
         </div>
 
 

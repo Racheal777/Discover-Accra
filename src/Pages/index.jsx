@@ -1,8 +1,12 @@
 import React from 'react'
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbarr from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { Link } from "react-router-dom";
 import About from '../Components/About';
+import Tips from '../Components/Tips';
+import OwlCarousels from '../Components/owlCarousel';
+import TopPlaces from '../Components/top-places';
 
 export default function Index() {
   return (
@@ -19,6 +23,18 @@ export default function Index() {
 
         <section>
           <About/>
+        </section>
+
+        <section>
+          <OwlCarousels/>
+        </section>
+
+        <section>
+          <Tips/>
+        </section>
+
+        <section>
+          <TopPlaces/>
         </section>
 
         <footer>
