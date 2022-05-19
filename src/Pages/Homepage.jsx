@@ -10,11 +10,9 @@ const Homepage = () => {
           <Navbarr />
 
           <div className="bg-text2">
-            <h3>EXPLORE </h3>
+            <h3>DISCOVER</h3>
           </div>
           <h1 className="text-9xl">Accra</h1>
-
-          {/* <img src="../../images/main2.png"></img> */}
 
           <div className="bg-btn">
             <button>

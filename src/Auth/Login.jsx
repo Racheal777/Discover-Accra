@@ -17,9 +17,7 @@ const [ password, setPassword ] = useState('')
 
       <h2>Discover</h2>
       <form className='forms sm:container w-full md:w-2/4'>
-        {/* <div>
-          <h1>Login</h1>
-        </div> */}
+
         <div className='form-input'>
           <label>Email</label>
           <input type="email"
@@ -41,13 +39,11 @@ const [ password, setPassword ] = useState('')
         </div>
 
         <div>
-          <Link to = "/">Forgot Password ?</Link>
+          <Link to = "/forgot-passsword">Forgot Password ?</Link>
+          
           <p>Dont have an account? <Link to = "/signup">Signup</Link></p>
         </div>
 
-        {/* <div className=''>
-          <button type='submit'>Login</button>
-        </div> */}
 
       </form>
       </section>

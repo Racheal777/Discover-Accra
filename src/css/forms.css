@@ -1,14 +1,11 @@
-
-
-.center{
-    /* min-width: 40vw; */
+.center {
+   
     margin: auto;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     
 }
 
-.center h2{
-    /* font-family: fantasy; */
+.center h2 {
+   
     font-family: cursive;
     color: white;
     font-size: 3em;
@@ -16,55 +13,80 @@
     margin-top: 1em;
     font-weight: bold;
 }
-.form{
-    background: #134E5E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-min-height: 100vh;
-  padding: 2em;
-  /* opacity: 0.3; */
+
+form h2 {
+    padding: 14px 3px;
 }
 
-.forms{
-    /* width: 40%; */
+
+.form {
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.2), rgba(46, 45, 45, 0.2)), url('../../public//images/blob-haikei.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+}
+
+.formm {
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.485), rgba(22, 20, 20, 0.489)), url('../../public//images/circle-scatter-haikei.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+}
+
+.formzz {
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.2), rgba(46, 45, 45, 0.2)), url('../../public//images/cool-background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2em;
+}
+
+
+
+.forms {
+
     padding: 1em 2em;
-   /* width: 50%; */
     margin: 2em auto;
-    /* background: rgba(254, 249, 249, 0.05);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 6px );
--webkit-backdrop-filter: blur( 6px );
-border-radius: 10px;
-border: 1px solid rgba(139, 138, 138, 0.898); */
+
 }
 
-.forms h3{
+.forms h3 {
     text-align: center;
     padding: 0.6em;
-    color: rgb(252, 165, 3);
+    color: #870000;
+    ;
 }
 
-.form-input input{
+.form-input input {
 
     padding: 3px 10px;
     width: 100%;
-    margin: 3px auto;
+    margin: 8px auto;
+    color: white;
     border-bottom: 2px solid white;
     background-color: transparent;
 }
 
-.form-input button{
+.form-input button {
     margin: 1em auto;
     width: 100%;
     background-color: white;
     font-size: 1.2em;
     border: none;
     padding: 8px 15px;
-    color: #356b72;
+    color: #870000;
 }
 
-.form-input label{
-    padding: 4px;
+.form-input label {
+    padding: 2px;
     color: white;
     font-weight: 500;
 }
@@ -76,10 +98,11 @@ border: 1px solid rgba(139, 138, 138, 0.898); */
     font-weight: bold;
 }
 
-.form-input input:focus{
-    /* border: none; */
+.form-input input:focus {
+    
     outline: none;
 }
-.form-input input::placeholder{
+
+.form-input input::placeholder {
     color: white;
 }
