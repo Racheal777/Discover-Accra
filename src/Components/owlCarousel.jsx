@@ -65,7 +65,7 @@ export default function OwlCarousels() {
                 <Col>
                   <div className="locations">
                     <Link to="">
-                      <img className="img" src="../images/car1.jpg"></img>
+                      <img className="img" src="../images/hotel4.jpg"></img>
                       Hotels
                     </Link>
                   </div>
@@ -74,7 +74,7 @@ export default function OwlCarousels() {
                 <Col>
                   <div className="locations">
                     <Link to="">
-                      <img className="img" src="../images/car1.jpg"></img>
+                      <img className="img" src="../images/res4.jpg"></img>
                       Restaurants
                     </Link>
                   </div>
@@ -83,7 +83,7 @@ export default function OwlCarousels() {
                 <Col xs={12}>
                   <div className="locations">
                     <Link to="">
-                      <img className="img" src="../images/car1.jpg"></img>
+                      <img className="img" src="../images/camp.jpg"></img>
                       Adventure
                     </Link>
                   </div>
@@ -91,7 +91,7 @@ export default function OwlCarousels() {
                 <Col xs={12}>
                   <div className="locations">
                     <Link to="">
-                      <img className="img" src="../images/car1.jpg"></img>
+                      <img className="img" src="../images/beach5.jpg"></img>
                       Beaches
                     </Link>
                   </div>

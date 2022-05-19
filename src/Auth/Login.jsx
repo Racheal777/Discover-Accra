@@ -18,6 +18,11 @@ const [ password, setPassword ] = useState('')
       <h2>Discover</h2>
       <form className='forms sm:container w-full md:w-2/4'>
 
+      <div>
+          <h3>Welcome</h3>
+        </div>
+
+
         <div className='form-input'>
           <label>Email</label>
           <input type="email"

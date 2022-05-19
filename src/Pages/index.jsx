@@ -7,6 +7,8 @@ import About from '../Components/About';
 import Tips from '../Components/Tips';
 import OwlCarousels from '../Components/owlCarousel';
 import TopPlaces from '../Components/top-places';
+import Testimonials from '../Components/Testimonials';
+import VideoPage from '../Components/videoPage';
 
 export default function Index() {
   return (
@@ -36,6 +38,16 @@ export default function Index() {
         <section>
           <TopPlaces/>
         </section>
+
+        <section>
+          <VideoPage/>
+        </section>
+
+        
+        <section>
+          <Testimonials/>
+        </section>
+
 
         <footer>
             <Footer/>

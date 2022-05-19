@@ -13,7 +13,10 @@ const ForgotPassword = () => {
 
       {/* <h2>Discover</h2> */}
       <form className='forms sm:container w-full md:w-2/4'>
-        <h2>Forgot Password</h2>
+      <div>
+          <h3>Forgot Password</h3>
+        </div>
+        
         <div className='form-input'>
           <label>Email</label>
           <input type="email"

@@ -12,7 +12,12 @@ const [ confirmpassword, setConfirmPassword ] = useState('')
 
       {/* <h2>Discover</h2> */}
       <form className='forms sm:container w-full md:w-2/4'>
-        <h2>Password Reset</h2>
+      
+      <div>
+          <h3>Password Reset</h3>
+        </div>
+
+        
         <div className='form-input'>
           <label>New Password</label>
           <input type="password"

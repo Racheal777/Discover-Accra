@@ -11,7 +11,7 @@ export default function Tips() {
 
             <section className='grid grid-cols-1 md:grid-cols-2  tips'>
                 <div className='imgg'>
-                    <img src="../images/car1.jpg" alt="pic" srcset="" />
+                    <img src="../images/main2.png" alt="pic" srcset="" />
                 </div>
 
                 <div>

@@ -1,6 +1,6 @@
 
 header {
-    background-image: linear-gradient(0deg, rgba(251, 196, 15, 0.2), rgba(198, 137, 4, 0.2)), url('../../public//images/cool-background.png');
+    background-image: linear-gradient(0deg, rgba(70, 55, 1, 0.198), rgba(55, 38, 1, 0.471)), url('../../public//images/cool-background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,15 +48,13 @@ header {
 /* ABOUT SECTION */
 
 .about{
-    background-image: url('../../public//images/circle-scatter-haikei-2.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
+    background-color: #eceff4;
     width: 100%;
     /* min-height: 60vh; */
     padding: 2em 4em;
     font-family:'Times New Roman', Times, serif;
-    margin: 1em auto;
+    margin:  auto;
     color: #696767;
     
 }
@@ -96,7 +94,7 @@ text-align: left;
     padding: 1.5em;
     margin: 1em auto;
     color: #696767;
-    background-color: #fefcfce2;
+    background-color: #eceff4;
     
 }
 .tips {
@@ -109,7 +107,7 @@ text-align: left;
     margin: auto;
     background-color: white;
     padding: 6px;
-    width: 50%;
+    width: 70%;
 }
 .tips img {
     width: 100%;
@@ -122,7 +120,7 @@ text-align: left;
 }
 
 .iconz {
-    margin: 8px;
+    margin: 12px;
     padding: 7px;
     text-align: center;
     font-size: 1.3em;
@@ -177,6 +175,56 @@ text-decoration: none;
     /* background-color: #e8e5e5;   */
 }
 
+.middle-about h2 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding: 4px;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+}
+
+/* TESTIMONIALS STYLES */
+.testimonials{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: #696767;
+    background-color: #eceff4;
+    min-height: 30vh;
+    margin: 1em auto;
+}
+
+.testimonials h2{
+    padding-top: 1em;
+}
+
+.carousel-item{
+    padding: 0.1em 1em;
+    margin: auto;
+    min-height: 30vh;
+    
+}
+
+.icons{
+    color: rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.bg-video {
+    padding: 2em;
+    margin: 2em auto;
+    
+}
+.vid-text {
+    text-align: center;
+    margin: 1em auto;
+    padding: 1em;
+    
+}
 
 footer {
     background-image: url('../../public//images/wave-haikei-4.svg');
