@@ -42,7 +42,7 @@ form h2 {
 }
 
 .formm {
-    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.485), rgba(22, 20, 20, 0.489)), url('../../public//images/circle-scatter-haikei.svg');
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.385), rgba(46, 45, 45, 0.499)), url('../../public//images/blob-haikei.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ form h2 {
 }
 
 .formzz {
-    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.345), rgba(46, 45, 45, 0.43)), url('../../public//images/cool-background.svg');
+    background-image: linear-gradient(0deg, rgba(9, 8, 8, 0.345), rgba(46, 45, 45, 0.43)), url('../../public//images/blob-haikei.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,6 +1,6 @@
 
 header {
-    background-image: linear-gradient(0deg, rgba(44, 42, 42, 0.2), rgba(46, 45, 45, 0.2)), url('../../public//images/cool-background.png');
+    background-image: linear-gradient(0deg, rgba(251, 196, 15, 0.2), rgba(198, 137, 4, 0.2)), url('../../public//images/cool-background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,4 +175,24 @@ text-decoration: none;
     color: #565555;
     font-family:'Times New Roman', Times, serif;
     /* background-color: #e8e5e5;   */
+}
+
+
+footer {
+    background-image: url('../../public//images/wave-haikei-4.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    padding: 2em 4em;
+    font-family:'Times New Roman', Times, serif;
+    margin: 1em auto;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 0em;
+    margin-top: 17em;
 }

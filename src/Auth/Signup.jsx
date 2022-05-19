@@ -10,7 +10,7 @@ const [ confirmpassword, setConfirmpassword ] = useState('')
     return (
         <div className='md:container md:mx-auto formm'>
       
-      <section className='center sm:container '>
+      <section className='center sm:container'>
 
       <h2>Discover</h2>
       <form className='forms sm:container w-full md:w-2/4'>
