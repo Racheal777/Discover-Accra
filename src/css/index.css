@@ -105,7 +105,7 @@ text-align: left;
 
 .tips .imgg {
     margin: auto;
-    background-color: white;
+    /* background-color: white; */
     padding: 6px;
     width: 70%;
 }
@@ -120,7 +120,7 @@ text-align: left;
 }
 
 .iconz {
-    margin: 12px;
+    margin: 10px;
     padding: 7px;
     text-align: center;
     font-size: 1.3em;

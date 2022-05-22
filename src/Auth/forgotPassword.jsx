@@ -11,7 +11,7 @@ const ForgotPassword = () => {
       
       <section className='center sm:container'>
 
-      {/* <h2>Discover</h2> */}
+      <h2>Discover</h2>
       <form className='forms sm:container w-full md:w-2/4'>
       <div>
           <h3>Forgot Password</h3>
