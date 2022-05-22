@@ -4,20 +4,26 @@ import Navbarr from "../Components/Navbar";
 
 const Homepage = () => {
   return (
-    <div className="md: bg-image">
+    <div >
+      <Navbarr />
+      <main className="md: bg-image">
+
+     
       <section className=" md: bg-text">
+      
         <div className="pic">
-          <Navbarr />
+          
 
           <div className="bg-text2">
-            <h3>DISCOVER</h3>
-          </div>
-          <h1 className="text-9xl">Accra</h1>
-
+            
           <div className="bg-btn">
+          <h3>DISCOVER</h3>
+            <h1 className="text-9xl">Accra</h1>
+
             <button>
               <a href="/home"> Explore</a>
             </button>
+          </div>
           </div>
 
           <div className="foot">
@@ -44,6 +50,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+      </main>
     </div>
   );
 };

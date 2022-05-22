@@ -12,10 +12,12 @@ import VideoPage from '../Components/videoPage';
 
 export default function Index() {
   return (
-    <div className='md: md:mx-auto'>
-      
+    <div >
+       <Navbarr/>
+      <main className='md: md:mx-auto'>
+
         <header>
-            <Navbarr/>
+            
             <div className='header-text w-full md:w-2/4'>
               <h1>TIME TO REWIND AND TAKE A BREAK</h1>
               <h3>Discover The City</h3>
@@ -52,7 +54,7 @@ export default function Index() {
         <footer>
             <Footer/>
         </footer>
-
+        </main>
     </div>
   )
 }
