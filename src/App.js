@@ -11,6 +11,7 @@ import Signup from "./Auth/Signup";
 import Index from "./Pages";
 import PasswordReset from "./Auth/passwordReset";
 import ForgotPassword from "./Auth/forgotPassword";
+import AdminPage from "./Pages/adminPage";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         <Route path="/signup" element={<Signup/>}></Route>
         <Route path="/password-reset" element={<PasswordReset/>}></Route>
         <Route path="/forgot-passsword" element={<ForgotPassword/>}></Route>
+        <Route path="/admin" element={<AdminPage/>}>
+        {/* <Route path="/password-reset" element={<PasswordReset/>}></Route> */}
+        </Route>
       </Routes>
       
     </div>

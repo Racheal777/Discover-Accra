@@ -16,7 +16,7 @@ export default function Index() {
        <Navbarr/>
       <main className='md: md:mx-auto'>
 
-        <header>
+        <header className='header'>
             
             <div className='header-text w-full md:w-2/4'>
               <h1>TIME TO REWIND AND TAKE A BREAK</h1>

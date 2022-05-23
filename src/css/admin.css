@@ -1,0 +1,21 @@
+.headerr {
+    background-image: linear-gradient(0deg, rgba(84, 66, 2, 0.269), rgba(97, 96, 95, 0.471)), url('../../public//images/admin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+    padding: 2em;
+}
+
+.tabs{
+    background-color: aliceblue;
+    margin: 1em auto;
+    padding: 2em;
+}
+
+.main-tab {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
