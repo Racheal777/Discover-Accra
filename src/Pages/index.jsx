@@ -9,6 +9,7 @@ import OwlCarousels from '../Components/owlCarousel';
 import TopPlaces from '../Components/top-places';
 import Testimonials from '../Components/Testimonials';
 import VideoPage from '../Components/videoPage';
+import Eventz from '../Components/eventz';
 
 export default function Index() {
   return (
@@ -50,6 +51,9 @@ export default function Index() {
           <Testimonials/>
         </section>
 
+        <section>
+          <Eventz/>
+        </section>
 
         <footer>
             <Footer/>

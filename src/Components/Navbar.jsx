@@ -33,6 +33,7 @@ export default function Navbarr() {
                   <NavDropdown.Item href="#action3">Adventure</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/" className="text-dark" >Contact</Nav.Link>
+                <Nav.Link href="/" className="text-dark" >Events</Nav.Link>
                 <Nav.Link href="/admin" className="text-dark" >User</Nav.Link>
               </Nav>
 
